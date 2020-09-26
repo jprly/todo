@@ -1,3 +1,10 @@
 body {
     background-color: floralwhite;
 }
+
+/* completed */
+.completed {
+    text-decoration: line-through;
+    color: darkgrey;
+    text-decoration-color: black;
+}
