@@ -3,8 +3,13 @@ body {
 }
 
 /* completed */
-.completed {
+.complete {
     text-decoration: line-through;
     color: darkgrey;
+    text-decoration-color: black;
+}
+
+.open {
+    color: black;
     text-decoration-color: black;
 }
