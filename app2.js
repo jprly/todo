@@ -23,7 +23,7 @@ publishToDos();
 function publishToDos(){
 html = ``;
 toDoArray.forEach((element, index) => {
-    return html += `<div  id="todo${index}"  class="todo alert alert-light alert-dismissible fade show"  role="alert">
+    return html += `<div  id="todo${index}"  class="todo alert alert-light alert-dismissible fade show shadow"  role="alert">
     <strong onclick="changeStatus(${index})" class="${element['status']}">${element['todo']}</strong><br><small>Added: ${element['created']}</small>
     <button type="button" class="close todoClose"  aria-label="Close" onclick="removeItem(${index})">
       <span aria-hidden="true">&times;</span>
