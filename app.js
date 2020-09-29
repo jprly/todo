@@ -87,8 +87,3 @@ function updateToDoIDs(){
       });
 
 }
-
-// function for testing basic items
-function test(){
-    console.log('testing... 1,2,3.')
-}

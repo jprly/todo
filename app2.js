@@ -49,7 +49,8 @@ function  changeStatus(item){
 function addItem() {
     //get value
     let newValue = document.querySelector("#toDoInput").value;
-    toDoArray.unshift({todo: newValue, created: getDate(), status: 'open'})
+    toDoArray.unshift({todo: newValue, created: getDate(), status: 'open'});
+    document.querySelector("#toDoInput").value = '';
     publishToDos();
 }
 
